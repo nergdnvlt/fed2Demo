@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.env
+
+gateway/.env
+gateway/node_modules
+posts/makefile
+posts/node_modules
+users/makefile
+users/node_modules

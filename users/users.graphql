@@ -1,0 +1,17 @@
+extend schema
+  @link(url: "https://specs.apollo.dev/federation/v2.0",
+        import: ["@key"])
+
+type Query {
+    "The three latest reviews submitted for FlyBy's Location"
+    users: [User!]!
+    "The details of one user"
+    user(id: ID!): User
+}
+
+type User @key(fields: "id"){
+    "The id for the user"
+    id: ID!
+    "the dummy info for the user."
+    dummy: String
+}
