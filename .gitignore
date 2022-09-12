@@ -1,7 +1,7 @@
 node_modules/
 .DS_Store
 .env
-makefile
+.makefile
 
 gateway/.env
 gateway/node_modules
